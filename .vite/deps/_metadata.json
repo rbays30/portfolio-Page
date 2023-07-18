@@ -1,0 +1,68 @@
+{
+  "hash": "771f2ed7",
+  "browserHash": "d906e5e1",
+  "optimized": {
+    "vue": {
+      "src": "../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "fd70cfe7",
+      "needsInterop": false
+    },
+    "gsap": {
+      "src": "../../node_modules/gsap/index.js",
+      "file": "gsap.js",
+      "fileHash": "0283b5c3",
+      "needsInterop": false
+    },
+    "vue3-popper": {
+      "src": "../../node_modules/vue3-popper/dist/popper.esm.js",
+      "file": "vue3-popper.js",
+      "fileHash": "5763ff9b",
+      "needsInterop": false
+    },
+    "@fortawesome/fontawesome-svg-core": {
+      "src": "../../node_modules/@fortawesome/fontawesome-svg-core/index.mjs",
+      "file": "@fortawesome_fontawesome-svg-core.js",
+      "fileHash": "9409a5f7",
+      "needsInterop": false
+    },
+    "@fortawesome/vue-fontawesome": {
+      "src": "../../node_modules/@fortawesome/vue-fontawesome/index.es.js",
+      "file": "@fortawesome_vue-fontawesome.js",
+      "fileHash": "adcdbf37",
+      "needsInterop": false
+    },
+    "@fortawesome/free-brands-svg-icons": {
+      "src": "../../node_modules/@fortawesome/free-brands-svg-icons/index.mjs",
+      "file": "@fortawesome_free-brands-svg-icons.js",
+      "fileHash": "f89db819",
+      "needsInterop": false
+    },
+    "@fortawesome/free-solid-svg-icons": {
+      "src": "../../node_modules/@fortawesome/free-solid-svg-icons/index.mjs",
+      "file": "@fortawesome_free-solid-svg-icons.js",
+      "fileHash": "14f53342",
+      "needsInterop": false
+    },
+    "@popperjs/core": {
+      "src": "../../node_modules/@popperjs/core/lib/index.js",
+      "file": "@popperjs_core.js",
+      "fileHash": "6f83a3f1",
+      "needsInterop": false
+    },
+    "@fortawesome/free-regular-svg-icons": {
+      "src": "../../node_modules/@fortawesome/free-regular-svg-icons/index.mjs",
+      "file": "@fortawesome_free-regular-svg-icons.js",
+      "fileHash": "8aa2fdc4",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-OWZKEKZD": {
+      "file": "chunk-OWZKEKZD.js"
+    },
+    "chunk-2ZOPDH6N": {
+      "file": "chunk-2ZOPDH6N.js"
+    }
+  }
+}
