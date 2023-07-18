@@ -1,0 +1,28 @@
+[
+  {
+    "link": { "text": "Home", "url": "/" },
+    "title": "Hello There, Friend",
+    "picture": "/src/assets/img/easel.svg",
+    "description": "This is my home page"
+  },
+
+  {
+    "link": { "text": "Portfolio", "url": "/portfolio" },
+    "title": "Learn More About My Work!",
+    "picture": "/src/assets/img/easel.svg",
+    "description": "Review some of my favorite projects I've worked on so far"
+  },
+  {
+    "link": { "text": "About Me", "url": "/about" },
+    "title": "Learn More About Me!",
+    "picture": "/src/assets/img/person-square.svg",
+    "description": "I'm touched... really. Click to learn more about me!"
+  },
+
+  {
+    "link": { "text": "Contact", "url": "/contact" },
+    "title": "Let's Work Together!",
+    "picture": "/src/assets/img/telephone.svg",
+    "description": "Just a quick contact form to get us rolling!"
+  }
+]

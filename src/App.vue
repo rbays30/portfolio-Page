@@ -1,47 +1,60 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-</script>
-
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+  <NavBar
+        :pages="pages"
+        :active-page="activePage"
+        :nav-link-click="(index) => activePage = index"
+    >
+    </NavBar>
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
 
-  <main>
-    <TheWelcome />
-  </main>
+    <router-view
+    v-if="cards.length >0"
+    :cards="cards"
+    ></router-view>
+    <BottomNav>
+
+    </BottomNav>
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
+<script>
+import NavBar from './components/Navbar.vue';
+import BottomNav from './components/BottomNav.vue';
+
+export default {
+    components: {
+    NavBar,
+    BottomNav
+    
+    },
+    data() {
+                return {
+                    activePage: 0,
+                    pages: [
+             
+                    ]
+                };
+
+            },
+    created() {
+        this.getPages();
+
+        
+
+    },
+
+    methods: {
+        async getPages() {
+            let res = await fetch('pages.json');
+            let data = await res.json();
+            this.pages=data;
+            this.cards=data.slice(1,4);
+        },
+
+        pageCreated(pageObj) {
+            console.log(pageObj);
+        }
+
+    }
+
 }
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
-</style>
+</script>
