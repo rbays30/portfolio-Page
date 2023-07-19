@@ -26,12 +26,10 @@
         <h3 class="animated-text display-4 mb-0 ps-3 "></h3>
         <h3 class="cursor display-4 mb-0">|</h3>
     </div>
-
-    <hr class="intro-help p-3 d-none d-md-block">
-    <div class="container-fluid d-flex pb-5 flex-column flex-md-row justify-content-center">
+    <div class="container-fluid d-flex p-5 flex-column flex-md-row justify-content-center">
       <div v-for="(page, index) in cards" :key="index" class="intro-3 col-12 col-md-4 d-flex p-3 mw-75 justify-content-center">
         <div class="card p-3 h-100" style="max-width:300px">
-          <img  class="card-img-top m-auto" :src=page.picture style=" width:50px; height: auto;" :alt="`This picture suggests content of the ${page.link.text} page`">
+          <font-awesome-icon  class="card-img-top m-auto" :icon= page.picture style=" width:auto; height: 50px;" :alt="`This picture suggests content of the ${page.link.text} page`" />
           <div class="card-body text-center">
             <div class="container-fluid" style="height:30%">
               <h5 class="card-title">{{ page.title }}</h5>
@@ -96,12 +94,12 @@ export default {
 
   mounted() {
 
-    const tlReveal = gsap.timeline( {defaults: {duration: 1, stagger: 1.5}})
+    const tlReveal = gsap.timeline( {defaults: {duration: 1, stagger: 1}})
     tlReveal
             .from('.intro-card', {x: '300%', ease: 'bounce'})
             .from('.intro-1', {opacity:0})
             .from('.intro-2', {opacity: 0})
-            .from('.intro-cardletters', {opacity:0})
+            .from('.intro-cardletters', {opacity:0, duration:0.5})
             .from('.intro-help', {opacity: 0})
             .from('.intro-3', {opacity: 0, delay: 2, stagger: 0.5})
             

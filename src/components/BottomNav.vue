@@ -48,7 +48,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <object data="/src/assets/img/Resume_Levi_Bays.pdf" type="application/pdf" width="100%" height="500px">
+          <object :data="imgUrl" class="resume_bays" type="application/pdf" width="100%" height="500px">
             <p>Unable to display PDF file. <a href="/src/assets/img/Resume_Levi_Bays.pdf">Download</a> instead.</p>
           </object>
         </div>
@@ -60,6 +60,7 @@
     </div>
   </div>
 </template>
+
 <script setup>
   
 import { reactive, onMounted } from 'vue'
@@ -81,23 +82,20 @@ function closeModal()
 {
     state.modal_demo.hide()
 }
-
-
-
 </script>
 
 
+
 <script>
+import imgUrl from '../assets/Resume_Levi_Bays.pdf'
 
-import NavbarLink from './NavbarLink.vue';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-
 import Popper from "vue3-popper";
 
 
 export default {
     components: {
-        NavbarLink, Popper
+        Popper
     },
     props: ['pages', 'activePage', 'navLinkClick'],
     

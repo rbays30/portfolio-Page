@@ -17,14 +17,13 @@ import { FontAwesomeIcon, FontAwesomeLayers, FontAwesomeLayersText } from '@fort
 
 /* import specific icons */
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faAngleUp, faBriefcase, faCodeFork, faEnvelope, faIdCard, faFile, faMobileScreen } from '@fortawesome/free-solid-svg-icons';
+import { faBriefcase, faEnvelope, faIdCard, faFile, faMobileScreen, faPersonRays, faPeopleArrows } from '@fortawesome/free-solid-svg-icons';
 
 import { popper } from '@popperjs/core';
-import { faAddressCard } from '@fortawesome/free-regular-svg-icons';
 
 /* add icons to the library */
 
-library.add(faGithub, faLinkedin, faFile, faEnvelope, faIdCard, faMobileScreen, faCodeFork, faAddressCard, faBriefcase, faAngleUp)
+library.add(faGithub, faLinkedin, faFile, faEnvelope, faIdCard, faPeopleArrows, faPersonRays, faMobileScreen, faBriefcase)
 
 
 createApp(App)
