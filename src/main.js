@@ -1,11 +1,12 @@
 import {createApp} from 'vue';
-import '../node_modules/bootstrap/dist/css/bootstrap.css';
-import '../node_modules/bootstrap/dist/js/bootstrap.min.js';
 import App from './App.vue';
 import router from '@/router';
 import { gsap } from 'gsap';
 import Popper from "vue3-popper";
+import Modal from "vue-bs-modal";
 
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
+import '../node_modules/bootstrap/dist/js/bootstrap.min.js';
 
 
 
@@ -28,6 +29,7 @@ library.add(faGithub, faLinkedin, faFile, faEnvelope, faIdCard, faPeopleArrows, 
 
 createApp(App)
 .use(router)
+.use(Modal)
 .use(gsap)
 .use(popper)
 .component("Popper", Popper)

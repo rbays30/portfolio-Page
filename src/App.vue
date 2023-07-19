@@ -1,11 +1,10 @@
 <template>
-  <NavBar
+    <NavBar
         :pages="pages"
         :active-page="activePage"
         :nav-link-click="(index) => activePage = index"
     >
     </NavBar>
-
 
     <router-view
     v-if="pages.length > 0"
@@ -24,8 +23,7 @@ export default {
     components: {
     NavBar,
     BottomNav
-    
-    },
+},
     data() {
                 return {
                     activePage: 0,

@@ -97,7 +97,6 @@ export default {
     const tlReveal = gsap.timeline( {defaults: {duration: 1, stagger: 1}})
     tlReveal
             .from('.intro-card', {x: '300%', ease: 'bounce'})
-            .from('.intro-1', {opacity:0})
             .from('.intro-2', {opacity: 0})
             .from('.intro-cardletters', {opacity:0, duration:0.5})
             .from('.intro-help', {opacity: 0})
