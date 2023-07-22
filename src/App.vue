@@ -8,6 +8,7 @@
 
     <router-view
     v-if="pages.length > 0"
+
     :cards="cards"
     ></router-view>
     <BottomNav>

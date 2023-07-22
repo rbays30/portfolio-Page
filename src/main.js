@@ -17,14 +17,18 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon, FontAwesomeLayers, FontAwesomeLayersText } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faBriefcase, faEnvelope, faIdCard, faFile, faMobileScreen, faPersonRays, faPeopleArrows } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin, faPagelines } from '@fortawesome/free-brands-svg-icons';
+import { faBriefcase, faEnvelope, faIdCard, faFile, faMobileScreen, faPersonRays, faPeopleArrows, faPaperPlane, faCodeFork, faPaw, faCode } from '@fortawesome/free-solid-svg-icons';
+import { faHandshake } from '@fortawesome/free-regular-svg-icons';
 
 import { popper } from '@popperjs/core';
 
+
 /* add icons to the library */
 
-library.add(faGithub, faLinkedin, faFile, faEnvelope, faIdCard, faPeopleArrows, faPersonRays, faMobileScreen, faBriefcase)
+library.add(faGithub, faPaperPlane ,faLinkedin, faFile, faEnvelope, 
+    faIdCard, faPeopleArrows, faPersonRays, faMobileScreen, faBriefcase, 
+    faHandshake, faCodeFork, faPagelines, faPaw, faCode)
 
 
 createApp(App)
