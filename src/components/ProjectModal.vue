@@ -1,4 +1,14 @@
 
+<script setup>
+
+import cs50 from '../components/projects/cs50.vue'
+import upinroses from '../components/projects/upinroses.vue'
+import mercyworks from '../components/projects/mercyworks.vue'
+import hounddog from '../components/projects/hounddog.vue'
+import website from '../components/projects/website.vue'
+
+</script>
+
 <template>
 <div :id="project.id" class="modal modal-xl fade"  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -8,10 +18,11 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
+        <component :is=project.id></component>
 
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
@@ -21,8 +32,13 @@
 
 <script>
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { defineAsyncComponent } from 'vue';
 
 export default {
+  components: {
+    cs50, upinroses, mercyworks, hounddog, website
+  },
+
     data() {
         return {
             modalOpen:false

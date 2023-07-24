@@ -13,7 +13,13 @@ const routes = [
   {path: '/portfolio', name: 'Portfolio', component: Portfolio},
   {path: '/about', name: 'About', component: About},
   {path: '/contact', name: 'Contact', component: Contact},
-  {path: '/success', name: 'Success', component: Success}
+  {path: '/success', name: 'Success', component: Success},
+  {
+    // path: "*",
+    path: "/:catchAll(.*)",
+    redirect: '/',
+  }
+
   
 ]
 

@@ -4,7 +4,7 @@
       "description": "Look through some sample projects I completed through Harvard's CS50 Class!",
       "active": "true",
       "picture": ["fas", "code-fork"],
-      "skills": ["C", "Python", "Flask", "SQL", "HTML/CSS", "JavaScript", "Flask"],
+      "skills": ["C", "Python", "Flask", "SQL", "Docker", "JavaScript", "Flask"],
       "id": "cs50"
 
 
@@ -14,8 +14,8 @@
         "description": "Custom website for a floral designer. Utilized Jekyll to build an easy album upload process",
         "active": "true",
         "picture": ["fab", "pagelines"],
-        "skills": ["HTML/CSS", "Jekyll", "Liquid", "Netlify", "JavaScript"],
-        "id": "uir"
+        "skills": ["HTML/CSS", "Jekyll", "SEO", "Liquid", "Netlify", "JavaScript"],
+        "id": "upinroses"
 
 
     },
@@ -38,9 +38,9 @@
     },
     {
         "title": "This Website!",
-        "description": "Made with love for your viewing pleasure",
+        "description": "No need for a formal introduction here!",
         "picture": ["fas", "code"],
-        "skills": ["Vue.js", "HTML/CSS", "JavaScript", "Vite"],
+        "skills": ["Vue.js", "HTML/CSS", "JavaScript", "Vite", "Single Page Application"],
         "active": "true",
         "id": "website"
     }
