@@ -33,3 +33,6 @@ npm run build
 ```sh
 npm run lint
 ```
+
+
+git subtree push --prefix dist origin gh-pages

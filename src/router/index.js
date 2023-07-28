@@ -14,11 +14,8 @@ const routes = [
   {path: '/about', name: 'About', component: About},
   {path: '/contact', name: 'Contact', component: Contact},
   {path: '/success', name: 'Success', component: Success},
-  {
-    // path: "*",
-    path: "/:pathMatch(.*)*",
-    redirect: '/',
-  }
+  { path: '/:pathMatch(.*)*', name: 'Home', component: Home},
+
 
   
 ]
