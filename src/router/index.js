@@ -16,7 +16,7 @@ const routes = [
   {path: '/success', name: 'Success', component: Success},
   {
     // path: "*",
-    path: "/:catchAll(.*)",
+    path: "/:pathMatch(.*)*",
     redirect: '/',
   }
 
