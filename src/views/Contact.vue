@@ -21,7 +21,7 @@
   <!-- Message input -->
   <div class="mb-3">
     <label class="form-label" for="messageakslfj">Message</label>
-    <textarea class="form-control" id="messageakslfj" type="text" name="messageaklsfj" placeholder="Message" required style="height: 10rem;"></textarea>
+    <textarea class="form-control" id="messageakslfj" type="text" name="messageaksfj" placeholder="Message" required style="height: 10rem;"></textarea>
   </div>
 
   <!-- Form submit button -->
