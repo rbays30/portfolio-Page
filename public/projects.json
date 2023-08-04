@@ -29,14 +29,6 @@
 
     },
     {
-        "title": "Mercy Works",
-        "description": "Current CRM style application in progress. Simplifying where information is accessed for local ministry",
-        "picture": ["far", "handshake"],
-        "skills": ["Vue.js", "JavaScript", "HTML/CSS"],
-        "active": "false",
-        "id": "mercyworks"
-    },
-    {
         "title": "This Website!",
         "description": "No need for a formal introduction here!",
         "picture": ["fas", "code"],

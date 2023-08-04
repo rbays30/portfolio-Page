@@ -16,6 +16,7 @@ import { gsap } from 'gsap';
 
 export default {
   mounted() {
+    window.scrollTo(0, 0)
     gsap.to('.plane', { rotation:"45_cw", duration:1 })
     gsap.to('.plane', {x:'500%', duration:1, delay:1})
     gsap.from('.display-4', {opacity: 0, stagger: 1})

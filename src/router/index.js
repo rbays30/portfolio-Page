@@ -15,10 +15,8 @@ const routes = [
   {path: '/contact', name: 'Contact', component: Contact},
   {path: '/success', name: 'Success', component: Success},
   { path: '/:pathMatch(.*)*', name: 'Home', component: Home},
-
-
-  
 ]
+
 
 const router = createRouter ( {
     history: createWebHistory(),

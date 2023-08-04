@@ -65,6 +65,7 @@ import { gsap } from 'gsap';
 
 export default {
   mounted(){
+    window.scrollTo(0, 0)
     gsap.from('img', {opacity:0})
     gsap.from('p', {x: '100%', stagger: 0.5,})
   },

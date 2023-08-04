@@ -93,21 +93,21 @@ export default {
   },
 
   mounted() {
-
-    const tlReveal = gsap.timeline( {defaults: {duration: 1, stagger: 1}})
+    window.scrollTo(0, 0)
+    const tlReveal = gsap.timeline( {defaults: {duration: 0.5, stagger: 1}})
     tlReveal
-            .from('.intro-card', {x: '300%', ease: 'bounce'})
+            .from('.intro-card', {x: '300%', ease: 'bounce', duration:1})
             .from('.intro-2', {opacity: 0})
-            .from('.intro-cardletters', {opacity:0, duration:0.5})
+            .from('.intro-cardletters', {opacity:0, duration:0.5, stagger: 0})
             .from('.intro-help', {opacity: 0})
-            .from('.intro-3', {opacity: 0, delay: 2, stagger: 0.5})
+            .from('.intro-3', {opacity: 0, stagger: 0.25})
             
 
 
 
     gsap.to('.cursor', { opacity: 0, repeat: -1, yoyo: true, duration:1, ease: "power2.inOut"})
 
-    let tlMaster = gsap.timeline({repeat: -1, delay:9})
+    let tlMaster = gsap.timeline({repeat: -1, delay:5})
 
     words.forEach((word) => {
       let tlText = gsap.timeline({ repeat: 1, yoyo: true});

@@ -10,7 +10,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-row">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0  justify-content-around d-flex flex-row">
                     <li v-for="(page, index) in pages" class="nav-item p-3" :key="index" >
                         <navbar-link
                             :page="page"

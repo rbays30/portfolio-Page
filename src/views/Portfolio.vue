@@ -66,6 +66,9 @@ export default {
             console.log(pageObj);
         }
 
+    },
+    mounted () {
+      window.scrollTo(0, 0)
     }
 
 }

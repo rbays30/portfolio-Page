@@ -13,7 +13,7 @@
     "description": "Review some of my favorite projects I've worked on so far"
   },
   {
-    "link": { "text": "About Me", "url": "/about" },
+    "link": { "text": "About", "url": "/about" },
     "title": "Learn More About Me!",
     "picture": ["fas", "person-rays"],
     "description": "I'm touched... really. Click to learn more about me!"
