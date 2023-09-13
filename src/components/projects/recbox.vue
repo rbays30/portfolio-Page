@@ -3,7 +3,11 @@
     <div class="container-fluid px-5 py-3">
      <h4>Description:</h4>
     <p>As a software developer, I'm excited to present a poker game that offers an engaging and immersive experience. This project combines my love for coding with a focus on delivering an outstanding user interface.</p>
+    <div class="container-fluid p-3">
+        <img class="d-block m-auto" style="max-width: 100%;" src="/src/assets/recboxExample.png" alt="RecBox Picture">
+        <figcaption class="figure-caption text-center">Example Game Image</figcaption>
 
+    </div>
     <h4>Key Features:</h4>
     <ul>
         <li><strong>User-Centric Design:</strong> My primary goal was to create an intuitive and visually appealing interface that caters to players of all skill levels.</li>
