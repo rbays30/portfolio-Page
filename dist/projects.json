@@ -35,6 +35,14 @@
         "skills": ["Vue.js", "HTML/CSS", "JavaScript", "Vite", "Single Page Application"],
         "active": "true",
         "id": "website"
+    },
+    {
+        "title": "RecBox Games",
+        "description": "Texas Hold 'Em Application for a Startup",
+        "picture": ["fas", "gamepad"],
+        "skills": ["C#", "HTML/CSS", "JavaScript", "Unity", "User Experience"],
+        "active": "true",
+        "id": "recbox"
     }
   ]
   

@@ -18,7 +18,7 @@ import { FontAwesomeIcon, FontAwesomeLayers, FontAwesomeLayersText } from '@fort
 
 /* import specific icons */
 import { faGithub, faLinkedin, faPagelines } from '@fortawesome/free-brands-svg-icons';
-import { faBriefcase, faEnvelope, faIdCard, faFile, faMobileScreen, faPersonRays, faPeopleArrows, faPaperPlane, faCodeFork, faPaw, faCode } from '@fortawesome/free-solid-svg-icons';
+import { faBriefcase, faEnvelope, faIdCard, faFile, faMobileScreen, faPersonRays, faPeopleArrows, faPaperPlane, faCodeFork, faPaw, faCode, faGamepad } from '@fortawesome/free-solid-svg-icons';
 import { faHandshake } from '@fortawesome/free-regular-svg-icons';
 
 import { popper } from '@popperjs/core';
@@ -28,7 +28,7 @@ import { popper } from '@popperjs/core';
 
 library.add(faGithub, faPaperPlane ,faLinkedin, faFile, faEnvelope, 
     faIdCard, faPeopleArrows, faPersonRays, faMobileScreen, faBriefcase, 
-    faHandshake, faCodeFork, faPagelines, faPaw, faCode)
+    faHandshake, faCodeFork, faPagelines, faPaw, faCode, faGamepad)
 
 
 createApp(App)
