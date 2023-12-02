@@ -43,6 +43,15 @@
         "skills": ["C#", "HTML/CSS", "JavaScript", "Unity", "User Experience"],
         "active": "true",
         "id": "recbox"
+    },
+    {
+        "title": "Clay Vs. Levi",
+        "description": ".NET MVC Site to Track a Rivalry",
+        "picture": ["fas", "ranking-star"],
+        "skills": ["ASP.NET", "HTML/CSS", "JavaScript", "Azure", "SQL"],
+        "active": "true",
+        "id": "clayvslevi"
     }
+
   ]
   
