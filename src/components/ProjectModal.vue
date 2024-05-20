@@ -6,6 +6,7 @@ import upinroses from '../components/projects/upinroses.vue'
 import hounddog from '../components/projects/hounddog.vue'
 import website from '../components/projects/website.vue'
 import recbox from '../components/projects/recbox.vue'
+import clayvslevi from './projects/clayvslevi.vue'
 
 </script>
 
@@ -36,7 +37,7 @@ import { defineAsyncComponent } from 'vue';
 
 export default {
   components: {
-    cs50, upinroses, hounddog, website, recbox
+    cs50, upinroses, hounddog, website, recbox, clayvslevi
   },
 
     data() {
