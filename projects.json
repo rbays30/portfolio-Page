@@ -48,7 +48,7 @@
         "title": "Clay Vs. Levi",
         "description": "A Flutter Site to Track a Rivalry",
         "picture": ["fas", "ranking-star"],
-        "skills": ["ASP.NET", "HTML/CSS", "JavaScript", "Azure", "SQL"],
+        "skills": ["Flutter", "HTML/CSS", "PostgreSQL", "API"],
         "active": "true",
         "id": "clayvslevi"
     }
